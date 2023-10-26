@@ -58,7 +58,6 @@ The following list should give an overview:
 Furthermore, it is requested that the implemented environment is tested and analyzed. 
 Therefore, it is helpful to depict for instance how a PDU session is established.
 Diagrams such as Message Sequence Charts showing how and which messages will be exchanged between the involved NFs are requested.
-Also supporting Wireshark traces will help to prove that you really did the tests on your own.
 
 #### MSC Example
 
@@ -87,6 +86,14 @@ sequenceDiagram
     AMF->>gNB: PDU Session
     gNB->>UE: Resource Setup
 ```
+
+Also supporting Wireshark traces will help to prove that you really did the tests on your own.
+
+#### Wireshark Trace Example
+
+![Wireshark Trace](resources/images/Wireshark.png)
+
+Describe what you have implemented. Give an overview and understandable description of what you have realized and how others may reconstruct your work.
 
 ## References
 
